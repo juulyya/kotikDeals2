@@ -13,7 +13,7 @@ public class Application {
         smallKotik.setSatiety(2);
         smallKotik.setWeight(5);
 
-        for (var deal: bigKotik.liveAnotherDay())
+        for (String deal: bigKotik.liveAnotherDay())
         {System.out.println(deal);
         }
 
